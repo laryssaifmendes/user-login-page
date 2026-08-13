@@ -1,0 +1,27 @@
+{
+  "name": "user-login-page",
+  "version": "1.0.0",
+  "description": "worst user login experience possible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laryssaifmendes/user-login-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/laryssaifmendes/user-login-page/issues"
+  },
+  "homepage": "https://github.com/laryssaifmendes/user-login-page#readme",
+  "devDependencies": {
+    "playwright": "^1.52.0"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0"
+  }
+}

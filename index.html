@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MELHOR LOGIN DE TODOS</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/png" href="assets/icon1.png" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="login-card" aria-live="polite">
+        <h1>LOGIN</h1>
+
+        <form id="loginForm" novalidate>
+          <div class="field">
+            <label for="username">USUÁRIO</label>
+            <input id="username" name="username" type="text" placeholder="user" />
+          </div>
+
+          <div class="field">
+            <label for="password">SENHA</label>
+            <input id="password" name="password" type="password" placeholder="••••" />
+          </div>
+
+          <div class="captcha-box">
+            <div class="captcha-head">CAPTCHA SEGURANÇA</div>
+            <div class="captcha-wrap">
+              <span id="captchaText" aria-label="captcha"></span>
+              <button id="refreshCaptcha" type="button" aria-label="Gerar novo captcha">↻</button>
+            </div>
+            <input id="captchaInput" name="captchaInput" type="text" placeholder="DIGITE" maxlength="8" />
+          </div>
+
+          <button id="submitButton" class="login-btn" type="submit">ENTRAR</button>
+        </form>
+
+        <div class="secret-hint-wrap">
+          <button id="revealSecret" class="secret-trigger" type="button" aria-label="Mostrar dicas ocultas">?</button>
+          <div id="secretCredentials" class="secret-box" aria-live="polite">
+            <span>USUÁRIO: admin</span>
+            <span>SENHA: 123456</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="adOverlay" class="ad-overlay hidden" aria-hidden="true">
+        <div class="ad ad-one">OFERTA IMPERDÍVEL</div>
+        <div class="ad ad-two">CLIQUE PARA GANHAR</div>
+        <div class="ad ad-three">PROMOÇÃO RÁPIDA</div>
+        <div class="ad ad-four">YOUTUBE GRATIS</div>
+        <div class="ad ad-five">SEU CELULAR MELHOR</div>
+        <div class="ad ad-six">SORTEIO HOJE</div>
+        <div class="ad ad-urgent" data-role="reset">CLIQUE AQUI URGENTE</div>
+      </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
